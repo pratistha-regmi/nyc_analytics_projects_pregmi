@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: prats-project-9338
+    schema: cis9440_project_raw_data
+    tables:
+      - name: source_housing_litigations
+      - name: source_hpd_311_service_requests
+      

@@ -38,3 +38,8 @@ models:
 
         dot_311:
           +materialized: table
+
+    project_work:
+      staging:
+        +materialized: table
+        +schema: cis9440_project_staging.    
